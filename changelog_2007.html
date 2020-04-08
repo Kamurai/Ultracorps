@@ -1,0 +1,328 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>UltraCorps: Change Log - 2007</title>
+    <link rel="stylesheet" href="newimg/new-subpage.css">
+    <script type="text/javascript" 
+        src="newimg/help.js"></script>
+</head>
+<body>
+<a name="top"></a>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="817">
+<tr>
+  <td colspan="2" width="817"><img src="newimg/subpage-head.jpg" width="817" height="152" alt="UltraCorps" usemap="#hdr_map" border="0"></td>
+</tr>
+<tr>
+    <td width="196" valign="top" class="sidebar"><img src="newimg/subpage-side.jpg" width="196" height="521" alt="" usemap="#side_map" border="0"></td>
+    <td valign="top">
+<div id="content">
+<h2><b><i>UltraCorps</i></b> Change Log for 2007</h2>
+<h2>December 27, 2007</h2>
+<ul>
+ <li> Added an .autobuild property to the worlds db. Changed player boot/quit code to set all of the nobody worlds in a quitter's cluster to switch to autobuild. Changed production module to look for worlds with autobuild=1 and queue up production orders there.
+</ul>
+<h2>December 23, 2007</h2>
+<ul>
+ <li> Orn X-factor added: Thirus All-Purpose Saucers owned by Orn players get +10 DF.
+ <li> Festivus-1 and 2 will tick tonight.
+</ul>
+<h2>December 22, 2007</h2>
+<ul>
+ <li> Kira fixed a precision problem with the Ring Mapmaker - homeworlds weren't being equally spaced around the ring; also thinned out the nobody worlds in the middle.
+ <li> Added a difficulty field to the worlds table. Used by the Ring Mapmaker; worlds closer to the center have a higher degree of difficulty.
+ <li> Modified the Fleets module to multiply unit quantities in nobody start fleets by the degree of difficulty. Also added new unit formulas for high difficulty easter-egg worlds; many of these now have licenses for OMG, Infinita, CR Org, etc. Mua ha haaaaa . . .
+ <li> Festivus 1 and 2 created and opened for joins.
+</ul>
+<h2>December 21, 2007</h2>
+<ul>
+ <li> New ring games, Festivus-1 and 2, announced.
+</ul>
+<p>Race changes made:</p>
+<ul>
+ <li> Arachnons will now get one extra population on the homeworld for every three enemy population they kill in a victorious battle.
+ <li> CNM starting ult down to 500.
+ <li> Ectonian starting fodder cut by 5 SSF and 5 X-5.
+ <li> Guir will now start with the Pside Car license and one Pside Car.
+ <li> Orn buff TBD.
+ <li> Swamp Beasts lose their BioBombs and get four each A-7s and Rovers.
+ <li> VaT'ak get two more E-class.
+ <li> Zenrin get 17 more v2 upgrades and one v3 upgrade, plus an extra X-8.
+</ul>
+<p>Unit changes made:</p>
+<ul>
+ <li> BioBomb - Too much of a â€œgrieferâ€&#65533; weapon. Weâ€™re cutting its defense to 70 and not making it available until Turn 5.
+ <li> Nozama Fighter no longer gets an OF boost from the presence of a Queen.
+ <li> Nozama Queen spawns only 8-12 Fighters per turn.
+ <li> TK Bike attacks increased from 2 to 4.
+ <li> Zenrin Upgrades are less complex: 80 for v2, 800 for v3, 8,000 for v4.
+</ul>
+<h2>November 29, 2007</h2>
+<ul>
+ <li> SJ updated the PUB game docco to specify when inactive games will be halted and deleted.
+</ul>
+<h2>November 17, 2007</h2>
+<ul>
+ <li> Kira modified the Game module to not use storable files.
+</ul>
+<h2>November 16, 2007</h2>
+<ul>
+ <li> Palatino tick crashed during the tick, "Magic number checking on storable file failed at blib/lib/Storable.pm". Uncertain why; possible disk corruption? Storable.pm is up to date. Kira extracted the backup data from the db and restored to the pre-tick conditions, then ran the tick manually about an hour and a half after the scheduled tick time.
+</ul>
+<h2>November 12, 2007</h2>
+<ul>
+ <li> Palatino started with 261 players (out of 279 slots).
+</ul>
+<h2>November 6, 2007</h2>
+<ul>
+ <li> New mega game, Palatino announced.
+</ul>
+<p>Unit changes made:</p>
+<ul>
+ <li> BioBombs no longer have a Carry, and are now just called BioBombs (instead of U-90 Biobombs).
+ <li> VaT'ak no longer start with any Cargo Boosters.
+ <li> VaT'ak start with 15 X-8s instead of four.
+ <li> VaT'ak start with 550 population instead of 500.
+ <li> Nozama starting fleet reduced from 100 to 90 Nozama Fighters.
+ <li> Nozama Fighters now available on turn 8.
+ <li> Nozama Fighters gain SP 80 if in the same <I>fleet</I> as a Nozama Queen.
+ <li> Nozama base price raised from 7 to 10.
+ <li> Nozama Queen lock reduced from 10 to 5.
+ <li> Nozama Queens generate 15-20 Nozama each turn they are in a base fleet, but now <I>per world</I>, regardless of the number of Queens present.
+</ul>
+<h2>November 2, 2007</h2>
+<ul>
+ <li> Revised Economy page of the docco to explain max and min costs.
+</ul>
+<h2>October 30, 2007</h2>
+<ul>
+ <li> Kira finished the chat lock. Docco is updated.
+</ul>
+<h2>October 27, 2007</h2>
+<ul>
+ <li> Tweaked some race descriptions and worked on plans for the next mega.
+</ul>
+<h2>October 20, 2007</h2>
+<ul>
+ <li> Reviewed and refreshed the information pages. Corrected the docco to clarify that you do not earn XP on turns when you control no worlds.
+</ul>
+<h2>October 13, 2007</h2>
+<ul>
+ <li> Tweaked the docco a bit and updated the Upcoming Features page. A lot of the things on that list have gotten done. Yay.
+</ul>
+<h2>October 10, 2007</h2>
+<ul>
+ <li> PUB game owners and players can now use limited html (bold and italic) tags in headlines. Also, line breaks really work now.
+</ul>
+<h2>October 4, 2007</h2>
+<ul>
+ <li> Fixed rankings bug in Oceans-23 (spotted by MrBlarney) - yesterday's change had deleted the 2x ult valuation for O-23.
+</ul>
+<h2>October 3, 2007</h2>
+<ul>
+ <li> Modified rankings module to score based on any of the 5 scoring criteria (world count, net worth, firepower, population, win ratio).
+</ul>
+<h2>August 29, 2007</h2>
+<ul>
+ <li> Fixed a bug where players could clone a spawned order for more than 50 nozama (thus getting around the max-50 lock). Thanks to ShadowbaneX for reporting it.
+</ul>
+<h2>August 26, 2007</h2>
+<ul>
+ <li> Nozama queens, when in a basefleet, now spawn 8-12 Nozama fighters per turn.
+</ul>
+<h2>August 14, 2007</h2>
+Long dry spell ends. Stat changes made and announced.<P>
+<ul>
+ <li> Infinita and Giganto to SP 70, and reduce Infinita license cost to 1250.
+ <li> Reduce OMG carry to 1000. Tweak the X-factor so it is inactive for 3 combat rounds instead of 4.
+ <li> R-Class - increase lock to 5. CA down to 300.
+ <li> Nozama speed increased to 60, starting cost raised to 7. License now unavailable until turn 10.
+ <li> Nozama Queen - Change her to 40 OF, 90 DF, 5 AT, 120 speed. (We are also going to try out a new x-factor if Kira likes the code . . . but first it has to survive exposure to the test server.)
+ <li> X-6 - Increase CPX from 23 to 25. Increase CST from 20 to 23.
+ <li> X-7 - Increase CPX from 23 to 25. Increase CST from 20 to 23.
+ <li> Biobombs: halve CST and CPX, both to 25. Increase DF to 80. Aaaaaand . . . give them CA 1. Kamikaze pilots!
+ <li> Ralpher made a case that Megabot cost needs to go up. So: increase of 25 on the bot, and on the v2 and v3 upgrade.
+</ul>
+<h2>June 17, 2007</h2>
+<ul>
+ <li> Fixed a bug on the pub admin "run tick" page where player's e-mail addys were showing if they received tick notifications by e-mail. (Changed it so no addresses are visible.)
+</ul>
+<h2>June 13, 2007</h2>
+<ul>
+ <li> N-space fiction contest ended! Winners were Lyfdel and Argrath. Runners up: Pastafarian, Kail, TomC, heyzeus23, and Thrognor.
+</ul>
+<h2>June ?, 2007</h2>
+<ul>
+ <li> Re-added the arc cannon license back to Ectonians. (License only)
+</ul>
+<h2>June 4, 2007</h2>
+<ul>
+ <li> Announced the N-Space fiction contest, for people who wrote stories for the game on the forums.
+</ul>
+<h2>May 8, 2007</h2>
+<ul>
+ <li> N-space ended! UC_Rommel won again. 241 players remained (139 with 1+ worlds).
+ <li> Nerfed Ectonians by removing the arc cannon from their starting setup.
+ <li> Boosted Vat'ak by changing their EI to 35 (from 25) and RER to 200 (from 150).
+ <li> Changed the way Rating and MP are calculated; now it's the % of players BELOW you in total score. Your MP is now 10% of that, rounded down. Minimum is a rating of 10 (1 MP), if you have any worlds OR firepower left.
+</ul>
+<h2>April 10, 2007</h2>
+<ul>
+ <li> Posted new art for Nozama fighters and queen.
+</ul>
+<h2>April 4, 2007</h2>
+<ul>
+ <li> N-space started.
+</ul>
+<h2>April 2, 2007</h2>
+<ul>
+ <li> Opened N-Space for joining. Classic scoring (# of worlds owned), 250 players, 35 turns. Sent invites to everyone on the game-request wait list.
+</ul>
+<h2>April 1, 2007</h2>
+<ul>
+ <li> Fixed the empty-emote bug on ultrachat.
+ <li> Completed the "invite people on the wait list" code; ran a successful test case on the test server. Also set up the custom join code that limits joins to people on the invite list.
+</ul>
+<h2>Mar. 30, 2007</h2>
+<ul>
+ <li> Set up the map for our next mega game, N-Space. 
+</ul>
+<h2>Mar. 29, 2007</h2>
+<ul>
+ <li> Modified the MapMaker module to create (optional) symmetric mega maps, with no world drift. This results in homeworlds very evenly spaced apart, and very few gaps in the map. Ran a number of tests, creating games using symmetric maps. We decided to use this sort of map for the next mega game.
+ <li> Fixed a bug in world collision detection (it was going on x/y diffs rather than actual distance. Changed it to actual distance.)
+</ul>
+<h2>Mar. 26, 2007</h2>
+<ul>
+ <li> Posted MrBlarney's map of Last to the Last archive page.
+ <li> Modified the game-request page to include fields for game type, game length, and tick frequency. Worked on admin interface for sorting and refining the wait list based on various criteria.
+</ul>
+<h2>Mar. 25, 2007</h2>
+<ul>
+ <li> Kira modified the mapmaker module to create exactly N worlds for a mega game, resulting in a partially-filled outer rim.
+</ul>
+<h2>Mar. 22, 2007</h2>
+<ul>
+ <li> Much tweaking of docco took place. All references to newsgroups were removed or commented out. We decided that the process of joining a game was insufficiently documented, and worked on that.
+</ul>
+<h2>Mar. 10, 2007</h2>
+<ul>
+ <li> Posted the "Edit Game Units" interface to the PUB game admin area. Preview of a premium subscriber feature; this allows pub game owners to change the stats of any combat unit in their game.
+</ul>
+<h2>Feb. 28, 2007</h2>
+<ul>
+ <li> Added a message to the fleet section when a fleet is being disbanded.
+</ul>
+<h2>Feb. 27, 2007</h2>
+<ul>
+ <li> Fixed the rss feeds for new games to show a placeholder feed until new news is actually posted. (Added a dhandler to the feed directory.) Also modified the game-deletion code to automatically delete that game's feed, if one exists.
+</ul>
+<h2>Feb. 16, 2007</h2>
+<ul>
+ <li> Set up a script to run nightly, looking for walking dead PUB games (games that are still ticking but have no players, or the last player with any worlds logged in > 20 turns ago). Disables all ticks on those and umails the owner.
+</ul>
+<h2>Feb. 14, 2007</h2>
+<ul>
+ <li> Fixed a bug where, when a player quits/is booted from a game, it could leave orphaned unread mail. Now when a player leaves a game, all their mail for that game is deleted.
+ <li> Fixed the bug where a pub game is set to auto-tick (tick when ready), and all players but one are done, and the idler quits/is booted. This used to leave the game hanging indefinitely, waiting on the game owner to force tick the game. Now the game ticks after the idler leaves the game.
+</ul>
+<h2>Feb. 13, 2007</h2>
+<ul>
+ <li> Finished the PUB runner reputation system. Players can now rate the owner of a PUB game, based on how well the game was managed. Players are eligible to rate the PUB owner after the player quits, is booted, or after the game ends.
+</ul>
+<h2>Jan. 24, 2007</h2>
+<ul>
+ <li> Fixed the net worth bug (upgrade units were being valued at 0). Now should be valued at the price of the base unit + price of the upgrade unit.
+</ul>
+<h2>Jan. 21, 2007</h2>
+<ul>
+ <li> Modified map-maker to ensure there'll always be at least one world in the 50-70 range from the homeworld. Also modified the starting-pop formula for all hard worlds... (the old formula made it possible to tell which world had hurax.)
+</ul>
+<h2>Jan. 12, 2007</h2>
+<ul>
+ <li> Undeployed auto fleets now show at the top of the world info page along with all other undeployed fleets.
+</ul>
+<h2>Jan. 11, 2007</h2>
+<ul>
+ <li> Kira revised the Buy Licenses page so that upgrade units are shown below their base unit.
+</ul>
+<h2>Jan. 9, 2007</h2>
+<ul>
+ <li> Set up the browse players page. Also set up a browse-badge-winners function, and linked that to the standings page (and vice versa).
+</ul>
+<h2>Jan. 8, 2007</h2>
+<ul>
+ <li> Fixed the rankings page so racial ties are accounted for properly. Also fixed it to show placings for the top worlds.
+ <li> Added a count (# in chat) to the lobby
+</ul>
+<h2>Jan. 7, 2007</h2>
+<ul>
+ <li> Tweaked the standings page so the fastest solos are listed with the most-recent winners first.
+ <li> Fixed the end-of-game code to post a headline announcing the winner(s), and also automatically award winners badges.
+</ul>
+<h2>Jan. 6, 2007</h2>
+<ul>
+ <li> Fixed the css style of the "end solo game" page (might have been the last page with the old maroon/white colors?). Also fixed it to show the correct XP numbers won for very fast solos, and to display the badge won. 
+</ul>
+<h2>Jan. 5, 2007</h2>
+<ul>
+ <li> Kira created a separate Solo-Map-Maker module. This corrects the problem with some solo games having fewer than 12 worlds. It also paves the way for future solo games with more than 12 worlds.
+ <li> Revised the fleet formulas for very hard worlds in solo games. (Now you won't see an HC-4 or Giganto in a solo game... unless you build it yourself.) ;)
+</ul>
+<h2>Jan. 4, 2007</h2>
+<ul>
+ <li> Added a 12-in-5 badge, with corresponding XP bonus. Changed the graphics on all the 12-in-x badges so that 12-in-5 is gold, 12-in-6 silver, 12-in-7 bronze, and 12-in-8 now "copper" (though it doesn't really look coppery).
+</ul>
+<h2>Jan. 3, 2007</h2>
+<ul>
+ <li> Kira prettied up the solo game tick page.
+</ul>
+<h2>
+<a href="#top">Top</a> &bull;
+<a href="changelog_2005.html">2005</a> &bull;
+<a href="changelog_2006.html">2006</a> &bull;
+<a href="changelog_2008.html">2008</a> &bull;
+<a href="changelog.html">current</a>
+</h2>
+</div>
+    </td>
+</tr>
+<tr>
+    <td><img src="newimg/uc-side-foot.jpg" width="196" height="35" alt=""></td>
+    <td><img src="newimg/subpage-foot.jpg" width="621" height="35" alt=""></td>
+</tr>
+</table>
+<p id="copyright">
+<b><i>UltraCorps</i></b> is <a href="trademarks.html">copyright &copy;</a>
+1998-2002, 2005-2009 by <a href="javascript:if(confirm('http://www.sjgames.com/  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://www.sjgames.com/'">Steve Jackson Games</a>. All rights reserved.
+</p>
+</center>
+<MAP NAME="hdr_map">
+<AREA SHAPE="rect" COORDS="190,18,640,108" HREF="index.html">
+<AREA SHAPE="rect" COORDS="656,69,816,113" HREF="/zgame/game/">
+<AREA SHAPE="rect" COORDS="658,23,816,68" HREF="/zgame/game/">
+<AREA SHAPE="default" COORDS="0,0,817,152" NOHREF>
+</MAP>
+<MAP NAME="side_map">
+<AREA SHAPE="rect" COORDS="4,257,177,304" HREF="resources.html">
+<AREA SHAPE="rect" COORDS="5,207,176,255" HREF="/zgame/forums/">
+<AREA SHAPE="rect" COORDS="7,158,176,204" HREF="new_recruits.html">
+<AREA SHAPE="rect" COORDS="7,107,177,154" HREF="faq.html">
+<AREA SHAPE="rect" COORDS="7,59,176,103" HREF="help/help.html" onClick="javascript:startInfo('help/help.html'); return false;">
+<AREA SHAPE="rect" COORDS="8,8,176,55" HREF="about.html">
+<AREA SHAPE="rect" COORDS="7,456,178,499" HREF="credits.html">
+<AREA SHAPE="rect" COORDS="7,406,179,451" HREF="changelog.html">
+<AREA SHAPE="rect" COORDS="7,356,178,401" HREF="upcoming.html">
+<AREA SHAPE="rect" COORDS="6,308,177,353" HREF="known_bugs.html">
+</MAP>
+<MAP NAME="homepage_side_map">
+<AREA SHAPE="rect" COORDS="4,257,177,304" HREF="resources.html">
+<AREA SHAPE="rect" COORDS="5,207,176,255" HREF="/zgame/forums/">
+<AREA SHAPE="rect" COORDS="7,158,176,204" HREF="new_recruits.html">
+<AREA SHAPE="rect" COORDS="7,107,177,154" HREF="faq.html">
+<AREA SHAPE="rect" COORDS="7,59,176,103" HREF="help/help.html" onClick="javascript:startInfo('help/help.html'); return false;">
+<AREA SHAPE="rect" COORDS="8,8,176,55" HREF="about.html">
+</MAP>
+</body>
+</html>

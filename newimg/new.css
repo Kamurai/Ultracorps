@@ -1,0 +1,34 @@
+body {
+	background : #000000;
+	color: #ccffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.starback {
+	background: no-repeat url(starfield2.gif);
+	vertical-align: top;
+	height: 521px;
+	overflow: hidden;
+}
+#ultimate {
+	padding-left: 63px;
+}
+#blurb {
+	font-style: italic;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: left;
+}
+#gifmo {
+	border: 2px solid #254575;
+	float: right;
+	margin-right: 20px;
+}
+#copyright {
+	color: #8b8b8b;
+	font-size: small;
+	width: 810px;
+}
+a {
+	color : #2E78A7;
+	text-decoration : none;
+}

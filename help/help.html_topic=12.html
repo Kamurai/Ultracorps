@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Unit Statistics</title>
+	<link rel="stylesheet" href="newhelp.css">
+<style type="text/css">
+<!--
+.help_hdr {
+    text-align: center;
+    background: #000000;
+    padding-top: -20px;
+}
+-->
+</style>	
+</head>
+<body>
+<a name="top"></a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+    <td width="65" ><a href="javascript:history.back();"><img src="img/top-left.jpg" width="65" height="68" alt="" border="0"></a></td>
+    <td class="top"><img src="img/top-nav.jpg"  width="300" height="68" alt="" usemap="#map" border="0"></td>
+    <td width="60" ><a href="javascript:window.close();"><img src="img/top-right.jpg" width="60" height="68" alt="" border=""></a></td>
+</tr>
+<tr>
+    <td class="left"><img src="img/left.jpg" width="65" height="505" alt=""></td>
+    <td id="content">
+<a href="help.html">Help Index</a> / <a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=6  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=6'">Basic Rules</a> /<br>
+ <h2>Unit Statistics</h2>
+<p>Every unit in <b><i>UltraCorps</i></b> has statistics - offense, defense, and so on - that govern its cost and its movement, and determine how well it performs in <a href="help.html_topic=11.html">battle</a>. The <a href="unit.html">Units</a> button on the top bar will show you a complete list of all units currently in the game (in some games, the strongest units are not available until later turns) with their statistics. A sample display is shown below, with definitions of the abbreviations.</p>
+<h2>Sample Unit Statistics Display:</h2>
+<p><img src="/help/screenshots/unit-stats.png"  alt="Unit Stats"></p>
+<h2>Definitions</h2>
+<dl>
+<h3><dt><a name="License">License Cost</a></dt></h3>
+<dd>
+Cost in Ultranium to purchase a <a href="help.html_topic=39.html">license</a> - that is, a factory or other production facility - for this unit. A world may only produce those units for which it has licenses. License cost is fixed - it does not fluctuate with the <a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=9  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=9'">economy</a>.
+</dd>
+<h3><dt><A NAME="Max">Max: Maximum</A></dt></h3>
+<dd>
+<p>Maximum number you may enter in the <b>Quantity</b> field when ordering this unit. Small and cheap units can be produced up to 50 at a time. The <B>Max</b> number gets smaller as units get larger and more complex; the most complex units can only be produced one at a time. This makes it impossible to "lock in" low costs for huge orders of the biggest units.</p>
+<p>Note that you can enter multiple orders at the maximum. If you have a big, rich world, it might produce <i>hundreds</i> of small units in one turn . . . but you would have to place the orders 50 at a time, and only the ones finished on the same turn will lock in the current price. There is a special "clone this order" <img src="/zgame/game/img/prodq/clone.gif" alt="" > button which can be used to duplicate your last order.</p>
+</dd>
+<h3><dt><a name="OF">OF: Offense</a></dt></h3>
+<dd>
+This is the percentage chance of making a successful <a href="#AT">attack</a>. For each attack a unit has, it chooses a random enemy target and "rolls" a 1-100 die. Any roll under or equal to the offense number is a successful hit. For example, an <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=27  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=27'">HEW-9 Eliminator</a>, with an offensive rating of 50, successfully hits an enemy target if it rolls a number equal to or under 50; if it rolls 51 or over, it simply misses the target. For more information, see <a href="help.html_topic=11.html">Battles</a>.
+</dd>
+<h3><dt><a name="DF">DF: Defense</a></dt></h3>
+<dd>
+This is the unit's percentage chance of defending against a hit. For each hit a unit takes, a 1-100 die is "rolled." Any roll under or equal to the defense number results in a successful defense and leaves the unit unharmed; any roll over the defense number destroys the unit. For more information, see <a href="help.html_topic=11.html">Battles</a>.
+</dd>
+<h3><dt><a name="PD">PD: Population Damage</a></dt></h3>
+<dd>
+Indicates damage to enemy population when this unit attacks. A PD of 10 eliminates one population unit per round. In other words, the PD value equals 10 times the number of people that will die per round. Note that population damage occurs whether or not the unit has any successful attacks. For more information, see <a href="help.html_topic=11.html">Battles</a>.
+</dd>
+<h3><dt><a name="AT">AT: Attacks</a></dt></h3>
+<dd>
+Indicates how many times the unit may attack (and thus the maximum number of units it can destroy) in a single round of battle. The chance of each attack hitting its target is determined by the unit's </a href="#OF">offense</a>. For more information, see <a href="help.html_topic=11.html">Battles</a>.
+<p>Note that the <i>expected</i> damage of a unit may be calculated by multiplying its OF by its AT. For instance, if a unit has an OF of 50%, it hits half the time. If it has one attack per round, you can expect it to hit one enemy unit every other round (before defenses are taken into account). If it has 10 attacks per round, though, you can expect it to get five hits a round! (How many of these are kills will depend on the defense of the target.)</p>
+</dd>
+<h3><dt><a name="CA">CA: Carrying Capacity</a></dt></h3>
+<dd>
+Indicates whether a unit can carry other units between planets, or if it needs to be carried. Positive numbers indicate star-traveling units with cargo capacity (like the <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=36  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=36'">Cargo Booster</a>, which can carry 100). Zero indicates self-propelled spaceships that cannot carry anything else (like the <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=30  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=30'">X-5 Raider</a>). Negative numbers indicate units that must be carried (such as <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=27  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=27'">HEW-9 Eliminator</a>, which has a CA of negative 50).
+<p>For a fleet to be deployed to another world, its total CA must be 0 or more. If CA is negative, the fleet is overloaded! So, using the units above, a <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=36  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=36'">Cargo Booster</a> (CA of 100) could carry two <A HREF="javascript:if(confirm('http://ultracorps.sjgames.com/help/unit.html?id=27  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/unit.html?id=27'">HEW-9 Eliminators</a> (CA of -50 each).</p>
+</dd>
+<h3><dt><a name="SP">SP: Speed</a></dt></h3>
+<dd>
+This is the speed at which the unit can move between worlds, in map grid units per tick. Note that when units are gathered into a fleet, the fleet's speed is determined by the <i>slowest</i> unit in the fleet. A speed rating of N/A (not applicable) means that the unit is not self-propelled and must be carried. Its speed then depends on what is carrying it.
+</dd>
+<h3><dt><a name="CST">CST: Cost</a></dt></h3>
+<dd>
+Amount of Ultranium needed to produce a unit. If the game has an <a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=9  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=9'">economy</a>, price fluctuates according to galaxy-wide demand. Otherwise, price is stable through the game.
+</dd>
+<h3><dt><a name="CPX">CPX: Complexity</a></dt></h3>
+<dd>
+Population needed to produce a unit in one turn. For example, a world with a population of 500 can build a unit with a CPX of 500 in one turn . . . or a unit with a CPX of 1,000 in two turns. This number does not change. See <a href="help.html_topic=38.html">Unit Production</a> for more information.
+</dd>
+<h3><dt><a name="FP">FP: Firepower</a></dt></h3>
+<dd>
+A summary statistic which factors in offense, defense, and number of attacks. Firepower is a relative measure of overall combat strength. It applies to fleets and worlds as well as individual units. See <a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=50  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=50'">Firepower</a> for more information.
+</dd>
+<h3><dt><a name="Scan">Scan Range</a></dt></h3>
+<dd>
+Some units are <I>scanners</I>, able to detect incoming and outgoing fleets within a certain range of the world. "Scan Range" is this detection distance. See <a href="help.html_topic=36.html">Scanners</a> for more information.
+</dd>
+</dl><hr>
+<p><a href="help.html">Help Index</a> </p>
+<p><a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=51  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=51'">Previous Topic: X-Factors</a></p>
+<p><a href="javascript:if(confirm('http://ultracorps.sjgames.com/help/help.html?topic=81  \n\nThis file was not retrieved by BackStreet browser, because it is addressed on a domain or path outside the boundaries set for its Project.  \n\nDo you want to open it from the server?'))window.location='http://ultracorps.sjgames.com/help/help.html?topic=81'">Next Topic: Unowned Worlds (alias "Nobody")</a></p>
+    </td>
+    <td class="right"><img src="img/right.jpg" width="60" height="505" alt=""></td>
+</tr>
+<tr>
+    <td><img src="img/bot-left.jpg" width="65" height="53" alt=""></td>
+    <td class="bot"><img src="img/bot-nav.jpg" alt="" usemap="#botmap" border="0" width="122" height="53"></td>
+    <td><img src="img/bot-right.jpg" width="60" height="53" alt=""></td>
+</tr>
+</table>
+<MAP NAME="map">
+<AREA SHAPE="rect" COORDS="195,11,290,36" HREF="help.html">
+<AREA SHAPE="rect" COORDS="100,10,191,36" HREF="unit.html">
+<AREA SHAPE="rect" COORDS="2,10,98,36" HREF="race.html">
+</MAP>
+<MAP NAME="botmap">
+<AREA SHAPE="rect" COORDS="56,27,112,49" HREF="javascript:window.close()">
+<AREA SHAPE="rect" COORDS="0,28,52,49" HREF="#top">
+</MAP>
+</body>
+</html>

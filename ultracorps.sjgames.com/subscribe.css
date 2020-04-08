@@ -1,0 +1,50 @@
+#uc_cdr, #uc_elite {
+	width: 510px;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.intro_blurb {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#cdr_hdr1, #elite_hdr1 {
+	width: 510px;
+	height: 145px;
+}
+
+#cdr_hdr2 {
+	width: 510px;
+	height: 38px;
+	background: url(subscribe/cdr_hdr2.jpg) no-repeat center top;
+}
+
+#cdr_body {
+	width: 510px;
+	background: url(subscribe/cdr_body.jpg) repeat-y center top;
+	margin: 0;
+}
+
+#cdr_footer, #elite_footer {
+	width: 510px;
+	height: 20px;
+}
+
+.blurb {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.subscribe {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#elite_body {
+	width: 510px;
+	background: url(subscribe/elite_body.jpg) repeat-y center top;
+	margin: 0;
+}
+

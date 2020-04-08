@@ -1,0 +1,30 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 08 Apr 2020 18:47:01 at http://Kamurai:bluezer0@ultracorps.sjgames.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://Kamurai:bluezer0@ultracorps.sjgames.com/ -O1 "C:\My Web Sites\Ultracorps" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:47:11	Warning: 	Found for Kamurai:bluezer0@ultracorps.sjgames.com/zgame/game/
+18:47:11	Warning: 	File has moved from Kamurai:bluezer0@ultracorps.sjgames.com/zgame/game/ to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fgame%2F
+18:47:11	Warning: 	Found for Kamurai:bluezer0@ultracorps.sjgames.com/zgame/forums/
+18:47:11	Warning: 	File has moved from Kamurai:bluezer0@ultracorps.sjgames.com/zgame/forums/ to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F
+18:50:16	Warning: 	Found for ultracorps.sjgames.com/zgame/forums/?id=927
+18:50:16	Warning: 	File has moved from ultracorps.sjgames.com/zgame/forums/?id=927 to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F%3Fid%3D927
+18:50:16	Error: 	"Not Found" (404) at link ultracorps.sjgames.com/help/printhelp.html (from Kamurai:bluezer0@ultracorps.sjgames.com/help/help.html?topic=4)
+18:50:35	Warning: 	Note: due to https://secure.sjgames.com remote robots.txt rules, links beginning with these path will be forbidden: /pyramid/login/, /stats/, /ogre/board/, /pyramid/sample.cgi, /seekret/, /search.cgi (see in the options to disable this)
+18:51:21	Error: 	"Not Found" (404) at link Kamurai:bluezer0@ultracorps.sjgames.com/help/sample-battle/ (from Kamurai:bluezer0@ultracorps.sjgames.com/help/help.html?topic=2)
+19:03:03	Error: 	"Not Found" (404) at link Kamurai:bluezer0@ultracorps.sjgames.com/help/units/img/pic100.jpg (from Kamurai:bluezer0@ultracorps.sjgames.com/help/unit.html?id=100)
+19:03:11	Warning: 	Found for ultracorps.sjgames.com/zgame/forums/?id=597
+19:03:11	Warning: 	File has moved from ultracorps.sjgames.com/zgame/forums/?id=597 to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F%3Fid%3D597
+19:03:15	Warning: 	Found for ultracorps.sjgames.com/zgame/forums/?id=2
+19:03:15	Warning: 	File has moved from ultracorps.sjgames.com/zgame/forums/?id=2 to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F%3Fid%3D2
+19:03:15	Warning: 	Found for ultracorps.sjgames.com/zgame/forums//?id=2&topic=201&msg=44
+19:03:15	Warning: 	File has moved from ultracorps.sjgames.com/zgame/forums//?id=2&topic=201&msg=44 to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F%2F%3Fid%3D2%26topic%3D201%26msg%3D44
+19:03:20	Warning: 	Found for ultracorps.sjgames.com/zgame/forums//?id=2&topic=6
+19:03:20	Warning: 	File has moved from ultracorps.sjgames.com/zgame/forums//?id=2&topic=6 to https://secure.sjgames.com/login/?url=http%3A%2F%2Fultracorps.sjgames.com%2Fzgame%2Fforums%2F%2F%3Fid%3D2%26topic%3D6
+19:03:23	Error: 	"Forbidden" (403) at link www.warehouse23.com/img/covers/sjg9140.jpg (from ultracorps.sjgames.com/a/2006-04.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 26 seconds : 1300 links scanned, 1286 files written (21898076 bytes overall) [19886665 bytes received at 20169 bytes/sec], 4231160 bytes transferred using HTTP compression in 1059 files, ratio 39%, 7.4 requests per connection
+(4 errors, 15 warnings, 0 messages)

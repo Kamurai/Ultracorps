@@ -1,0 +1,101 @@
+body {
+	background : #000000;
+	color: #ccffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+	vertical-align: top;
+	background: #99CCFF;
+	color: #000000;
+	padding: 20px;
+	text-align: left;
+	min-height: 450px;
+}
+
+.content_black {
+	vertical-align: top;
+	background: #000000;
+	padding: 20px;
+	text-align: left;
+	min-height: 450px;
+}
+
+.indent {
+	padding-left: 30px;
+}
+
+.top {
+	background: repeat-x url(img/top.jpg);
+	text-align: left;
+}
+
+.bot {
+	background: repeat-x url(img/bot.jpg);
+	text-align: left;
+}
+
+.left {
+	background: repeat-y url(img/left.jpg);
+}
+
+.right {
+	background: repeat-y url(img/right.jpg);
+}
+
+.bigpic {
+	padding-bottom: 10px;
+}
+
+.startval {
+	font-weight: bold;
+	border-bottom: 1px solid #8af6ff;
+}
+
+.small {
+	font-size: small;
+}
+
+td.text {
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+td.data {
+	vertical-align: top;
+}
+
+.maroon {
+	background: #051830;
+	border-bottom: 1px solid #2c3c4d;
+}
+
+.center {
+	text-align: center;
+}
+
+a.ondark {
+	color: #00ffff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.content_black a {
+	color: #00ffff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.fp {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.bignum {
+	font-weight: bold;
+	font-size: 18pt;
+	font-variant: normal;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+}

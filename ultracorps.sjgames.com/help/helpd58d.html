@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!-- Mirrored from ultracorps.sjgames.com/help/help.html?topic=50 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Apr 2020 22:48:42 GMT -->
+<head>
+	<title>Firepower</title>
+	<link rel="stylesheet" href="newhelp.css">
+<style type="text/css">
+<!--
+.help_hdr {
+    text-align: center;
+    background: #000000;
+    padding-top: -20px;
+}
+-->
+</style>	
+</head>
+<body>
+<a name="top"></a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+    <td width="65" ><a href="javascript:history.back();"><img src="img/top-left.jpg" width="65" height="68" alt="" border="0"></a></td>
+    <td class="top"><img src="img/top-nav.jpg"  width="300" height="68" alt="" usemap="#map" border="0"></td>
+    <td width="60" ><a href="javascript:window.close();"><img src="img/top-right.jpg" width="60" height="68" alt="" border=""></a></td>
+</tr>
+<tr>
+    <td class="left"><img src="img/left.jpg" width="65" height="505" alt=""></td>
+    <td id="content">
+<a href="help.html">Help Index</a> / <a href="helpa6bf.html?topic=11">Battles</a> / <a href="help4d24.html?topic=6">Basic Rules</a> /<br>
+ <h2>Firepower</h2>
+
+Firepower is a special statistic. It applies to individual units, to fleets, to worlds, and to each player's entire empire.<p>
+
+Firepower is not used in actual battle resolution; it's a guide to overall combat strength, provided to help you plan. It is based on units' combat stats, but the raw <i>number</i> of units in a fleet is also important, because the more units a fleet has, the more the enemy must spread out its attacks, wasting shots on "fodder" units rather than capital ships or vulnerable units like E-class fighters.<p>
+
+It is, however, one of the things that players are ranked on . . . both "most firepower" and "most firepower on an individual world."<p>
+
+The formula for firepower for a <b>single unit</b> is:<br>
+
+<ul><i>
+    firepower = sqrt (OF * AT * (1 / (100 - DF) ) )
+</i></ul>
+
+
+The formula for firepower for a <b>fleet</b> or <b>world</b> is:<br>
+<ul><i>
+    for each type of combat unit:
+    <ul>
+       unit_type_AT =  (qty * OF * AT)<br>
+       unit_type_soak = (qty * (1 / (100 - DF) ) )
+    </ul>
+<br>
+    total_AT = sum of all unit_type_AT<br>
+    total_soak = sum of all unit_type_soak<br>
+<br>
+    total [fleet or world] firepower = sqrt( total_AT * total_soak )<br>
+</i></ul>
+<p>
+
+<p>Note that the firepower for a fleet is greater than the sum of the firepower of its individual units. This difference isn't much for a small fleet. For a big fleet, especially one with a lot of fodder, it's critical. And in a battle, all a player's fleets will perform as though they were one big fleet . . . so if you're bringing lots of fleets together for a single attack, you should expect them to perform a bit better than the sum of their Firepower would suggest.</p>
+
+<p>Note also that this formula does not account in any way for <a href="help2b1c.html?topic=51">X-Factors</a>, which depend on a unit's location, companions, and so on. So (for instance) if you make up an attack fleet with a lot of Sentinels of Garsasso, which are much weaker on the attack, the system will show a misleadingly high firepower. And any <A HREF="unitd5e8.html?id=34">Hurax Stealth Fighters</a> on an enemy world are omitted from the firepower reported to you, because they're undetectable!</p>
+
+<p>The formula for firepower for an <b>empire</b> is simply the total of the firepower of all its fleets (including Hurax). This is the formula that's used in the <a href="help1b74.html?topic=17">Player Rankings</a>.</p>
+
+<h3>Using Firepower to Predict Battle Outcomes</h3>
+The point of the Firepower stat is to give players a quick and dirty guideline for predicting battle outcomes. If you compare the Firepower of your attacking fleet(s) to the Firepower of the world you're attacking, you can get a very good idea what is likely to happen.<p>
+
+<p>In general, if two forces have about the same firepower, they have an even chance of winning the battle. But remember, you don't want an even chance . . . you want to win! Furthermore, if two forces are equally matched, the winner will control the world, but he may lose most of his fleet! So you don't just want to beat the enemy . . . you want to <b>crush</b> him.</p>
+
+<p>If your firepower exceeds the enemy's by 50%, you should win most of the time, but you may still suffer losses you consider unacceptable. (But note that if you send a single unit, no matter how high its firepower, you are just <i>begging</i> to lose it to a lucky shot.)</p>
+
+<p>If your firepower is twice that of the enemy's, you should win almost all the time, and your losses should be acceptable if your fleet was well-foddered (see below).</p>
+
+<p>If your firepower is three to four times that of the enemy's, you are in the range where you should wipe him out, or nearly so, on the first round. You don't need TOO much overkill, because the extra units could be off somewhere else conquering a different world.</p>
+
+<h3>How Much Fodder Should I Send?</h3>
+<p>Because the combat system assigns targets randomly, cheap "cannon fodder" units can draw fire away from your capital ships. There is debate about how much fodder is "enough," but:<ul>
+<li>If you send capital units with NO fodder, expect to lose them, even if they have more Firepower than the target world. Lucky shots happen at the darndest times. This means that if an invasion force loses most or all of its fodder, it needs to get some more before it moves to another attack.
+<li>Many players will argue that in a really big battle, it's better to have more fodder than more firepower.
+<li>Defense forces need fodder too. <A HREF="unit084d.html?id=46">Sentinels of Garsasso</a> are far more useful as defensive fodder than as attackers, because they fight much better in the Base Fleet.
+</ul><p>
+
+<h3>Firepower-Related Badges</h3>
+<p>There are two <a href="help0ff9.html?topic=67">badges</a> that relate to Firepower: one for the amount of Firepower you have on a single world, and one for the amount of Firepower you have <i>destroyed</i> in a single combat.<p><hr>
+<p><a href="help.html">Help Index</a> </p>
+<p><a href="helpa6bf.html?topic=11">Previous Topic: Battles</a></p>
+<p><a href="help2b1c.html?topic=51">Next Topic: X-Factors</a></p>
+
+    </td>
+    <td class="right"><img src="img/right.jpg" width="60" height="505" alt=""></td>
+</tr>
+<tr>
+    <td><img src="img/bot-left.jpg" width="65" height="53" alt=""></td>
+    <td class="bot"><img src="img/bot-nav.jpg" alt="" usemap="#botmap" border="0" width="122" height="53"></td>
+    <td><img src="img/bot-right.jpg" width="60" height="53" alt=""></td>
+</tr>
+</table>
+
+<MAP NAME="map">
+<AREA SHAPE="rect" COORDS="195,11,290,36" HREF="help.html">
+<AREA SHAPE="rect" COORDS="100,10,191,36" HREF="unit.html">
+<AREA SHAPE="rect" COORDS="2,10,98,36" HREF="race.html">
+</MAP>
+<MAP NAME="botmap">
+<AREA SHAPE="rect" COORDS="56,27,112,49" HREF="javascript:window.close()">
+<AREA SHAPE="rect" COORDS="0,28,52,49" HREF="#top">
+</MAP>
+</body>
+
+<!-- Mirrored from ultracorps.sjgames.com/help/help.html?topic=50 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Apr 2020 22:48:42 GMT -->
+</html>
+
+
